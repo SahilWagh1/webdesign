@@ -1,0 +1,131 @@
+#container{
+    background-color:white;
+    width: 500px;
+    border-radius: 20px;
+    position: relative;
+    left: 450px;
+    top: 180px;
+    align-items: center;
+    border-color: black;
+    z-index: 1;
+}
+#head{
+    left: 55px;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 3px;
+    position: relative;
+}
+#hr{
+    width: 450px;
+    position: relative;
+    left: 30px;
+}
+#usernametxt{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+    margin-top:10px ;
+}
+#uname{
+    border-top:0px;
+    border-left:0px;
+    border-right: 0px;
+    border-right:0px;
+    border-top:0px;
+    margin-top: 3px;
+    margin-left: 47px;
+    margin-bottom: 3px;
+    text-align: center;   
+    width: 400px;
+    outline: none;  
+}
+#paswrd{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+}
+#upass{
+    border-top:0px;
+    border-left:0px;
+    border-right: 0px;
+    border-right:0px;
+    border-top:0px;
+    margin-top: 3px;
+    margin-left: 47px;
+    margin-bottom: 3px;
+    text-align: center;   
+    width: 400px;
+    outline: none;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+
+}
+#remember{
+    position: relative;
+    margin:20px;
+       
+}
+#rmbr{
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+}
+#submit{
+    background-color:beige;
+    border:0.1px;
+    border-radius: 25px;
+    position: relative;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 17px;
+    top: 40px;
+    right:150px;
+}
+#submit:hover{
+    background-color: gainsboro;
+}
+#divfoot{
+    background-color:#8942a8;
+    width: 500px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    align-items: center;
+    padding-top: 20px;
+    border-color: black;
+    z-index: 1;
+
+}
+#cancelbtn{
+    background-color:beige;
+    border:0.1px;
+    border-radius: 25px;
+    position: relative;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#cancelbtn:hover{
+    background-color: gainsboro;
+}
+#psw {
+    float: right;
+    margin-top: 16px;
+    margin-right: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+  }
+  #head-name{
+    z-index: 1;
+    color: white;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+  }
+ 
